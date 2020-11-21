@@ -1,12 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 17 17:35:55 2020
-
-@author: maxim
-"""
 import random
 
-from phrase import Phrase
+from phrasehunter import Phrase
 import sys
 
 class Game:
