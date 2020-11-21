@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 17 17:34:51 2020
-
-@author: maxim
-"""
-
-
-# This Class diplays the Phrase, checks the letters, and checks if phrase is complete
 class Phrase:
     def __init__(self, phrase):
         self.phrase = phrase.lower()
