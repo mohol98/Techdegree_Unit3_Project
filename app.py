@@ -41,7 +41,6 @@ class Game:
     def get_guess(self):
         while True:
             try:
-                print(self.active_phrase.display(self.guesses))
                 guess = input('\nGuess a letter: ')
                 # .isalpha returns True if all input characters are part of the alphabet
                 if not guess.isalpha():
