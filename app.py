@@ -24,7 +24,6 @@ class Game:
             self.active_phrase.display(self.guesses)
             user_guess = self.get_guess()
             self.guesses.append(user_guess)
-            print(self.active_phrase.display(self.guesses))
             self.active_phrase.check_letter(user_guess)
             if not self.active_phrase.check_letter(user_guess):
                 self.missed += 1
